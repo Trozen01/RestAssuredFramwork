@@ -3,14 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employeeapi.smoke.TC004_PUT_Employee_Record">
+      <class name="com.employeeapi.smoke.TC002_Single_Employee_Record">
         <methods>
-          <include name="checkStatusLine"/>
-          <include name="CreateEmployee"/>
-          <include name="tearDown"/>
+          <include name="contentEnCoding"/>
+          <include name="checkStatuscode"/>
           <include name="setup"/>
+          <include name="checkContentType"/>
+          <include name="checkStatusLine"/>
+          <include name="getAllEmployee"/>
+          <include name="tearDown"/>
+          <include name="checkServerType"/>
         </methods>
-      </class> <!-- com.employeeapi.smoke.TC004_PUT_Employee_Record -->
+      </class> <!-- com.employeeapi.smoke.TC002_Single_Employee_Record -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

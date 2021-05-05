@@ -19,8 +19,8 @@ public class TestBase {
 	@BeforeClass
 	public void setup(){
 		
-       //logger=Logger.getLogger("EmployeeRestApi");
-       //PropertyConfigurator.configure("log4j.properties");
-       //logger.setLevel(Level.DEBUG);
+       logger=Logger.getLogger("EmployeeRestApi");
+       PropertyConfigurator.configure("D://jitu//migration//selenium//RestAssuredFramwork//src//test//resources//log4j.properties");
+       logger.setLevel(Level.DEBUG);
 	}
 }
